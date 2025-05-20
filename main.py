@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Route for the home page (root URL)
 @app.route('/')
 def home():
-    return render_template('bootstrapdemo.html')
+    return render_template('portfolio.html')
 
 # Route for index page (optional if you want a separate path)
 

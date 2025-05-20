@@ -14,7 +14,9 @@
         gap: 30px;
       }
       
-      
+      #home{
+        height: 500px;
+      }
       #about_me>a:hover{
         transform: scale(1.2);
       }
@@ -65,6 +67,11 @@
           height: 300px;
         }
       }
+      @media screen and (max-width:500px) {
+        #home{
+          height: 900px;
+        }
+      }
       </style>
       
   </head>
@@ -102,20 +109,24 @@
           </button>
           </div>
       </nav>
-      <div class="row g-0 bg-body-danger position-relative " id="about"  >
-        <div class="col-md-6 p-4 ps-md-0" id="about_me" >
-          <h1 class="mt-0" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 70px;">I'm Pravallika</h1>
-          <p>Hi, I’m Pravallika Goli, a B.Tech student specializing in the stream of computer science with a strong focus on web development. I have experience working with frontend and backend technologies like HTML, CSS, JavaScript, Python, and MySQL. Currently, I’m enhancing my full stack development skills at JSpiders, Hyderabad. I’m passionate about creating responsive, user-friendly web applications and continuously improving my technical abilities.</p>
-          <a href="https://www.instagram.com/pravallikaammu01/"><i class="ri-instagram-line" style="color: white"></i></a>
-          <a href="#"><i class="ri-whatsapp-line" style="color: white"></i></a>
-          <a href="www.linkedin.com/in/pravallika-goli-a6865b253"><i class="ri-linkedin-box-fill" style="color: white;"></i></a>
-          <a href="https://github.com/pravallika-0201"><i class="ri-github-fill" style="color: white;"></i></a>
-          <button style="height: auto; width: auto ; background-color: rgb(222, 5, 5);border-radius: 10px; "><a href="https://drive.google.com/file/d/1wUS_lJh9i9yLFUCxo1k0wZkp36zTlnTW/view?usp=drive_link" ><h3 style="color: white;">Resume</h3></a></button>
+      <div class="card" id="home"style="margin: auto;" >
+        <div class="row g-0" style="margin: auto;">
+          
+          <div class="col-md-8"style="margin: auto;">
+            <div class="card-body">
+               <h1 class="mt-0" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 70px;">I'm Pravallika</h1>
+                <p>Hi, I’m Pravallika Goli, a B.Tech student specializing in the stream of computer science with a strong focus on web development. I have experience working with frontend and backend technologies like HTML, CSS, JavaScript, Python, and MySQL. Currently, I’m enhancing my full stack development skills at JSpiders, Hyderabad. I’m passionate about creating responsive, user-friendly web applications and continuously improving my technical abilities.</p>
+                <a href="https://www.instagram.com/pravallikaammu01/"><i class="ri-instagram-line" style="color: white"></i></a>
+                <a href="#"><i class="ri-whatsapp-line" style="color: white"></i></a>
+                <a href="www.linkedin.com/in/pravallika-goli-a6865b253"><i class="ri-linkedin-box-fill" style="color: white;"></i></a>
+                <a href="https://github.com/pravallika-0201"><i class="ri-github-fill" style="color: white;"></i></a>
+                <button style="height: auto; width: auto ; background-color: rgb(222, 5, 5);border-radius: 10px; "><a href="https://drive.google.com/file/d/1wUS_lJh9i9yLFUCxo1k0wZkp36zTlnTW/view?usp=drive_link" ><h3 style="color: white;">Resume</h3></a></button>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin: auto;">
+            <img src="https://files.idyllic.app/files/static/3782019"  alt="..." style="height: 300px; border-radius: 200px;">
+          </div>
         </div>
-        <div class="col-md-6 mb-md-0 p-md-4" >
-          <img src="https://files.idyllic.app/files/static/3782019"  alt="..." style="height: 300px; border-radius: 200px;">
-        </div>
-        
       </div>
       
       <!-- Nav tabs -->
@@ -142,11 +153,7 @@
             </ul>
 
           <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="line-height: 2;padding: 40px;">Hello, my name is Pravallika Goli. I’m a final-year B.Tech student specializing in Data Science at Amrita Sai Institute of Science and Technology, with a current CGPA of 8.26.
-
-          As part of my academic journey, I led a team project titled "Smart Health Prediction Using Data Mining", where we developed a web application to predict diseases using machine learning algorithms like KNN and TF-IDF. The system achieved over 85% accuracy and included user authentication, symptom checker, and admin management modules, using technologies such as PHP, MySQL, HTML, CSS, and Bootstrap.
-
-          Additionally, I created a static Amazon clone using HTML and CSS to practice frontend development and designed a personal Resume Portfolio website to showcase my skills and projects.
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="line-height: 2;padding: 40px;">Hello, my name is Pravallika Goli. I’m a final-year B.Tech student specializing in Data Science at Amrita Sai Institute of Science and Technology, with a current CGPA of 8.2
 
           To strengthen my technical skills further, I’m currently undergoing full stack development training at JSpiders, Hyderabad, where I'm enhancing my proficiency in Java, SQL, web technologies, and project building.
 
@@ -263,7 +270,7 @@
 
 
 
-<div class="card-group">
+<div class="card-group" style="padding-bottom: 50px;">
   <div class="card">
     <img src="https://d3nwecxvwq3b5n.cloudfront.net/AcuCustom/Sitename/DAM/040/iStock-1477437266.jpg" class="card-img-top" alt="...">
     <div class="card-body">
